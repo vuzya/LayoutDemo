@@ -51,6 +51,9 @@ public class MainActivity extends ActionBarActivity
             case 0:
                 fragment = new FrameLayoutFragment();
                 break;
+            case 1:
+                fragment = new LinearLayoutFragment();
+                break;
         }
 
         fragmentManager.beginTransaction()
