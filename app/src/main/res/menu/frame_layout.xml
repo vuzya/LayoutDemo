@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/mode_add" android:title="add"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/mode_screen" android:title="screen"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/mode_multiply" android:title="multiply"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/mode_src_over" android:title="src_over"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/mode_src_in" android:title="src_in"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/mode_src_atop" android:title="src_atop"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>
