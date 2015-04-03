@@ -54,6 +54,18 @@ public class MainActivity extends ActionBarActivity
             case 1:
                 fragment = new LinearLayoutFragment();
                 break;
+            case 2:
+                fragment = new RelativeLayoutFragment();
+                break;
+            case 3:
+                fragment = new GridLayout1Fragment();
+                break;
+            case 4:
+                fragment = new GridLayout1Fragment();
+                break;
+            case 5:
+                fragment = new GridLayout1Fragment();
+                break;
         }
 
         fragmentManager.beginTransaction()
@@ -73,7 +85,13 @@ public class MainActivity extends ActionBarActivity
                 mTitle = getString(R.string.title_relative_layout);
                 break;
             case 4:
-                mTitle = getString(R.string.title_grid_layout);
+                mTitle = getString(R.string.title_grid_layout1);
+                break;
+            case 5:
+                mTitle = getString(R.string.title_grid_layout2);
+                break;
+            case 6:
+                mTitle = getString(R.string.title_grid_layout3);
                 break;
         }
     }

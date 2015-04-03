@@ -4,7 +4,9 @@
     <string name="title_frame_layout">Frame Layout</string>
     <string name="title_linear_layout">Linear Layout</string>
     <string name="title_relative_layout">Relative Layout</string>
-    <string name="title_grid_layout">Grid Layout</string>
+    <string name="title_grid_layout1">Grid Layout 1</string>
+    <string name="title_grid_layout2">Grid Layout 2</string>
+    <string name="title_grid_layout3">Grid Layout 3</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
