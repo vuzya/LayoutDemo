@@ -61,10 +61,10 @@ public class MainActivity extends ActionBarActivity
                 fragment = new GridLayout1Fragment();
                 break;
             case 4:
-                fragment = new GridLayout1Fragment();
+                fragment = new GridLayout2Fragment();
                 break;
             case 5:
-                fragment = new GridLayout1Fragment();
+                fragment = new GridLayout3Fragment();
                 break;
         }
 
