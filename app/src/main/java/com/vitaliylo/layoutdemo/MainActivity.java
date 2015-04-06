@@ -69,6 +69,9 @@ public class MainActivity extends ActionBarActivity
             case 6:
                 fragment = new GridLayout3Fragment();
                 break;
+            case 7:
+                fragment = new GridLayout4Fragment();
+                break;
         }
 
         fragmentManager.beginTransaction()
@@ -98,6 +101,9 @@ public class MainActivity extends ActionBarActivity
                 break;
             case 7:
                 mTitle = getString(R.string.title_grid_layout3);
+                break;
+            case 8:
+                mTitle = getString(R.string.title_grid_layout4);
                 break;
         }
     }

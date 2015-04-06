@@ -8,6 +8,7 @@
     <string name="title_grid_layout1">Grid Layout 1</string>
     <string name="title_grid_layout2">Grid Layout 2</string>
     <string name="title_grid_layout3">Grid Layout 3</string>
+    <string name="title_grid_layout4">Grid Layout 4</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
