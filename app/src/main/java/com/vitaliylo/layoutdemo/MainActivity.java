@@ -58,12 +58,15 @@ public class MainActivity extends ActionBarActivity
                 fragment = new RelativeLayoutFragment();
                 break;
             case 3:
-                fragment = new GridLayout1Fragment();
+                fragment = new BaselineFragment();
                 break;
             case 4:
-                fragment = new GridLayout2Fragment();
+                fragment = new GridLayout1Fragment();
                 break;
             case 5:
+                fragment = new GridLayout2Fragment();
+                break;
+            case 6:
                 fragment = new GridLayout3Fragment();
                 break;
         }
@@ -85,12 +88,15 @@ public class MainActivity extends ActionBarActivity
                 mTitle = getString(R.string.title_relative_layout);
                 break;
             case 4:
-                mTitle = getString(R.string.title_grid_layout1);
+                mTitle = getString(R.string.title_baseline);
                 break;
             case 5:
-                mTitle = getString(R.string.title_grid_layout2);
+                mTitle = getString(R.string.title_grid_layout1);
                 break;
             case 6:
+                mTitle = getString(R.string.title_grid_layout2);
+                break;
+            case 7:
                 mTitle = getString(R.string.title_grid_layout3);
                 break;
         }

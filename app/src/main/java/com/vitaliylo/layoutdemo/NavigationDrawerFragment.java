@@ -105,6 +105,7 @@ public class NavigationDrawerFragment extends Fragment {
                         getString(R.string.title_frame_layout),
                         getString(R.string.title_linear_layout),
                         getString(R.string.title_relative_layout),
+                        getString(R.string.title_baseline),
                         getString(R.string.title_grid_layout1),
                         getString(R.string.title_grid_layout2),
                         getString(R.string.title_grid_layout3),

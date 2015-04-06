@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vitaliylo.layoutdemo.BaselineFragment">
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textSize="20dip"
+        android:text="Small" />
+
+    <EditText
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/text1"
+        android:layout_alignBaseline="@+id/text1"
+        android:textSize="45dip"
+        android:text="Large" />
+
+    <Button
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/text2"
+        android:layout_alignBaseline="@+id/text1"
+        android:textSize="35dip"
+        android:text="Medium" />
+
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:background="#855a"
+        android:layout_toRightOf="@+id/text3"
+        android:layout_alignBaseline="@+id/text1"
+        android:layout_alignParentRight="true"
+        android:baselineAlignedChildIndex="0"
+        android:baselineAligned="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            android:textSize="20dip"
+            android:text="Small" />
+        <Button
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            android:textSize="20dip"
+            android:text="Small" />
+
+        <Button
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
+            android:textSize="45dip"
+            android:text="Large" />
+
+        <Button
+            android:id="@+id/text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="35dip"
+            android:text="Medium" />
+    </LinearLayout>
+</RelativeLayout>
